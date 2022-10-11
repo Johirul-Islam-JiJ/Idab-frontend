@@ -1,0 +1,74 @@
+
+
+.home_main{
+    .img_slider{
+            height: 85vh;
+            background-image: url(../assets/idab_profile.jpg);
+            .banner-content{
+                .banner_text{
+                    h1{
+                
+                        text-align: center;
+                        font-size: 80px;
+                        // color: $color-white;
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        line-height: 100px;
+                        padding-top: 190px;
+                    }
+                    h4{
+                        // color: $color-white;
+                        text-transform: capitalize;
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    .Header_paragrap{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        h2{
+            text-align: center;
+            padding: 14px;
+            font-weight: 600;
+            color : rgb(179, 212, 118)
+        }
+        p{
+            text-align: justify;
+            width: 1175px;
+            margin: 0 auto;
+            padding: 27px;
+            font-size: 20px;
+        }
+        .input{
+            width: 109px;
+            height: 46px;
+            font-size: 21px;
+            background: darkgray;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 400px;
+
+            
+        }
+    }
+    .corporate{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        h2{
+            text-align: center;
+            padding: 14px;
+            font-weight: 600;
+            color : rgb(179, 212, 118)
+        }
+        p{
+            text-align: justify;
+            width: 1175px;
+            margin: 0 auto;
+            padding: 27px;
+            font-size: 20px;
+        }
+    }
+
+}

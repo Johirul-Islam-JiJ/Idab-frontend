@@ -1,0 +1,98 @@
+.contact-area{
+    background: rgb(216, 220, 224);
+    padding: 5px;
+    margin-bottom: 5px;
+  .section-title{
+    h4{
+      text-transform: capitalize;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 50px;
+      display: inline-block;
+      position: relative;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      &::before{
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 3px;
+        background-color: $primary_color;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &:after{
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: $primary_color;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+      }
+    }
+    p{
+      margin-bottom: -33px;
+    }
+  }
+  .row-input{
+    float: left;
+    .contact-form{
+      input, textarea{
+        width: 135%;
+        padding: 10px;
+        border: 1px solid #f2f2f2;
+        margin-bottom: 23px;
+        
+      }
+      
+      input[type="submit"]{
+        background-color: $primary_color;
+        color: $color-white;
+        font-size: 22px;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .3s;
+        
+        &:hover{
+          background-color: $btn_hover;
+        } 
+      }
+    }
+  }
+  
+  .single-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 210px;
+    i{
+      background-color: tomato;
+      color: #fff;
+      padding: 12px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    h4{
+      text-transform: uppercase;
+      width: 400px;
+      font-size: 20px;
+      font-weight: 600;
+      span{
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: lowercase;
+        margin-top: 5px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

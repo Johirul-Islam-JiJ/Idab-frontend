@@ -1,0 +1,51 @@
+.container .welcome_massage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .welcome_massage h2 {
+  text-align: center;
+  padding: 14px;
+  font-weight: 600;
+  color: rgb(179, 212, 118);
+}
+.container .welcome_massage p {
+  text-align: justify;
+  width: 1175px;
+  margin: 0 auto;
+  padding: 27px;
+  font-size: 20px;
+}
+.container .history {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .history h2 {
+  text-align: center;
+  padding: 14px;
+  font-weight: 600;
+  color: rgb(179, 212, 118);
+}
+.container .history p {
+  text-align: justify;
+  width: 1175px;
+  margin: 0 auto;
+  padding: 27px;
+  font-size: 20px;
+}
+.container .vision {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .vision h2 {
+  text-align: center;
+  padding: 14px;
+  font-weight: 600;
+  color: rgb(179, 212, 118);
+}
+.container .vision p {
+  text-align: justify;
+  width: 1175px;
+  margin: 0 auto;
+  padding: 27px;
+  font-size: 20px;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,82 @@
+
+footer {
+
+    background: rgb(7, 70, 66);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+}
+
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+.footer_logo {
+   font-size: 3rem;
+   font-weight: 700;
+   margin-bottom: 0.1rem;
+   display: inline-block;
+}
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.footer_socials {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.footer_socials a{
+    background: rgb(7, 70, 66);
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 6rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer_socials a:hover{
+    background: transparent;
+    color: aquamarine;
+    border-color: red;
+
+}
+
+.footer_copyright {
+    margin-bottom: 4rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+
+/* ========== Media Queries (Medium Devices) =============*/
+@media screen and (max-width:1024px) {
+
+
+
+}
+
+
+/* ========== Media Queries (Small Devices) =============*/
+@media screen and (max-width:600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer_socials {
+        margin-bottom: 2.6rem;
+    }
+
+
+}

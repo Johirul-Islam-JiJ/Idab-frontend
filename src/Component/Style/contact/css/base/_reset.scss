@@ -1,0 +1,84 @@
+@import "./variables";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul{
+  list-style: none;
+}
+.mx-auto{
+  margin: 0 auto;
+}
+
+/* Background Image CSS*/
+.bg{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  &::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $link-color;
+    opacity: .75;
+    z-index: -1;
+  }
+
+}
+$align: left, center, right, justify;
+@each $i in $align {
+  .text-#{$i}{
+    text-align: $i;
+  }
+}
+/* Padding & margin*/
+@for $i from 1 to 10 {
+  .pt-#{$i * 10}{
+    padding-top: $i * 10px;
+  }
+  .pb-#{$i * 10}{
+    padding-bottom: $i * 10px;
+  }
+  .mt-#{$i * 10}{
+    margin-top: $i * 10px;
+  }
+  .mb-#{$i * 10}{
+    margin-bottom: $i * 10px;
+  }
+}
+/* Flex CSS */
+
+$flex: flex, inline-flex; // making the bootstrap code
+@each $i in $flex {
+  .d-#{$i}{
+    display: $i;
+  }
+}
+/* Justify */
+$justify: start, center, end, evently, space-around, space-between;
+
+@each $i in $justify {
+  .justify-content-#{$i}{
+    justify-content: $i;
+  }
+}
+/* Align */
+$align-items: start, end, center , baseline, baseline;
+@each $i in $align-items {
+  .align-items-#{$i}{
+    align-items: $i;
+  }
+}

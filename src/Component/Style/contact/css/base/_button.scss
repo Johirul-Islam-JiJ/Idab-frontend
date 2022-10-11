@@ -1,0 +1,26 @@
+/* Button CSS */
+.btn{
+  display: inline-block;
+  color: $color-white;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 30px;
+  border-radius: 3px;
+  margin: 30px 5px 0 5px;
+  &.btn-primary{
+    background-color: $btn_background;
+    padding: 10px 30px;
+    &:hover{
+      background-color: $btn_hover;
+    }
+  }
+  &.btn-border{
+    border: 2px solid $btn_background;
+    padding: 8px 30px;
+    &:hover{
+      background-color: $btn_hover;
+      border-color: $btn_hover;
+    }
+  }
+}

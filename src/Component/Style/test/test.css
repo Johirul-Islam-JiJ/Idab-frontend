@@ -1,0 +1,10 @@
+.container {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .col-lg-3 :hover {
+  background: rgb(206, 199, 199);
+  padding: 15px;
+  border-radius: 5px;
+}/*# sourceMappingURL=test.css.map */
