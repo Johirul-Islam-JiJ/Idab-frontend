@@ -23,7 +23,7 @@ function Navbar() {
       </Link>
       <ul className={active}>
         <li className="nav__item">
-          <Link to="/Home" className="nav__link">
+          <Link to="/" className="nav__link">
             Home
           </Link>
         </li>
